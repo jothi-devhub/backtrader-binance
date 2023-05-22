@@ -29,8 +29,8 @@ if __name__ == '__main__':
     cerebro = bt.Cerebro(quicknotify=True)
 
     store = BinanceStore(
-        api_key='YOUR_BINANCE_KEY',
-        api_secret='YOUR_BINANCE_SECRET',
+        api_key='YOUR_SAXOBANK_KEY',
+        api_secret='YOUR_SAXOBANK_SECRET',
         coin_refer='EUR',
         coin_target='USD',
         testnet=True)
