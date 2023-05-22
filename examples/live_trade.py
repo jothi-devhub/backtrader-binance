@@ -1,7 +1,5 @@
 import datetime as dt
-
 import backtrader as bt
-
 from backtrader_binance import BinanceStore
 
 
