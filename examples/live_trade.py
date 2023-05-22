@@ -33,8 +33,8 @@ if __name__ == '__main__':
     store = BinanceStore(
         api_key='YOUR_BINANCE_KEY',
         api_secret='YOUR_BINANCE_SECRET',
-        coin_refer='BTC',
-        coin_target='USDT',
+        coin_refer='EUR',
+        coin_target='USD',
         testnet=True)
     broker = store.getbroker()
     cerebro.setbroker(broker)
